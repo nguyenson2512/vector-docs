@@ -1,0 +1,35 @@
+{
+  "name": "vector-docs-backend",
+  "version": "1.0.0",
+  "description": "Backend for vector document processing with Pinecone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/multipart": "^8.1.0",
+    "@langchain/textsplitters": "^0.0.1",
+    "@pinecone-database/pinecone": "^2.0.1",
+    "@xenova/transformers": "^2.17.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "openai": "^4.24.7",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "vector",
+    "pinecone",
+    "langchain",
+    "fastify"
+  ],
+  "author": "",
+  "license": "ISC"
+}
